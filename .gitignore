@@ -1,0 +1,23 @@
+csv_data/
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+dataset
+downloaded_dataset.zip
+
+# Artifacts directory
+artifacts/
+
+# Individual artifact files (backup in case artifacts/ is not ignored)
+patient_glucose_plot_*.png
+training_history.png
+confusion_matrix.png
+roc_curve.png
+hypoglycemia_prediction_model.keras
+model_metadata.json
+glucose_scaler.pkl
